@@ -2,6 +2,8 @@ GEM
   remote: https://rubygems.org/
   specs:
     benchmark (0.2.0)
+    celluloid (0.18.0)
+      timers (~> 4)
     connection_pool (2.2.5)
     rack (2.2.4)
     redis (4.8.0)
@@ -9,12 +11,14 @@ GEM
       connection_pool (>= 2.2.5)
       rack (~> 2.0)
       redis (>= 4.5.0, < 5)
+    timers (4.3.4)
 
 PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
   benchmark
+  celluloid
   sidekiq
 
 BUNDLED WITH
