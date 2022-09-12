@@ -1,4 +1,4 @@
-require "./lib/mailer.rb"
+require "./lib/mailer"
 require "benchmark" 
 
 puts Benchmark.measure{
